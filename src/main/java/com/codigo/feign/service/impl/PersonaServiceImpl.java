@@ -24,7 +24,7 @@ public class PersonaServiceImpl implements PersonaService {
         this.reniecClient = reniecClient;
     }
 
-    @Value("token.api")
+    @Value("${token.api}")
     private String tokenApi;
 
     @Override
